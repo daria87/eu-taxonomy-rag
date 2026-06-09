@@ -1,10 +1,14 @@
-from src.rag import answer_question
+from src.rag import answer_question, get_collection
 
 
 def main():
     print("EU Taxonomy FAQ Assistant")
     print("Ask one question at a time.")
     print("Type 'exit' or 'quit' to stop.\n")
+
+    print("Loading FAQ retriever...")
+    get_collection()
+    print("Retriever ready.\n")
 
     while True:
         question = input("Question: ").strip()
