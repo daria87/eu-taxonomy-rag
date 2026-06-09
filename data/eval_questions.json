@@ -1,0 +1,62 @@
+[
+  {
+    "question": "Can a company still get financing if none of its activities are aligned with the EU Taxonomy?",
+    "expected_source_id": "faq_0011",
+    "expected_question": "How about companies without any Taxonomy-aligned activities? Will they lose access to finance?"
+  },
+  {
+    "question": "Are the EU Taxonomy technical criteria expected to become tougher in the future?",
+    "expected_source_id": "faq_0000",
+    "expected_question": "Will the technical screening criteria set out in the Climate Delegated Act be made stricter and updated over time?"
+  },
+  {
+    "question": "Can general technical consultancy work qualify just because the client activity is Taxonomy-eligible?",
+    "expected_source_id": "faq_0004",
+    "expected_question": "Can technical consultancy services be counted as Taxonomy-eligible, and potentially Taxonomy-aligned, if they are related to an activity defined in the Taxonomy Delegated Acts?"
+  },
+  {
+    "question": "How should a company assess Taxonomy alignment for activities performed outside the EU?",
+    "expected_source_id": "faq_0006",
+    "expected_question": "How can an undertaking's activities that are carried out in jurisdictions outside the EU be assessed for compliance with the technical screening criteria by reference to local third-country requirements or guidelines? When criteria refer to EU/national legislation or standards, should the level of requirements be adapted for criteria to be achieved outside the EU?"
+  },
+  {
+    "question": "Is hydrogen storage treated as part of electricity storage in the Taxonomy?",
+    "expected_source_id": "faq_0060",
+    "expected_question": "Is hydrogen included as part of the activity “Storage of electricity” in Section 4.10?"
+  },
+  {
+    "question": "Are on-site hydropower or bioenergy systems covered by the building renewable energy installation activity?",
+    "expected_source_id": "faq_0137",
+    "expected_question": "Are bioenergy and hydropower eligible under the activity “Installation, maintenance and repair of renewable energy technologies” in Section 7.6.?"
+  },
+  {
+    "question": "What can companies use for building assessment outside the EU when EPCs are unavailable?",
+    "expected_source_id": "faq_0144",
+    "expected_question": "Can companies use Energy Performance Certificate (EPC) equivalents for assessing alignment with the technical screening criteria of the activity “Acquisition and ownership of buildings” in Section 7.7. in countries where EPC is not offered?"
+  },
+  {
+    "question": "Does EU Taxonomy alignment itself have to be achieved by every company?",
+    "expected_source_id": "faq_0011",
+    "expected_question": "How about companies without any Taxonomy-aligned activities? Will they lose access to finance?"
+  },
+  {
+    "question": "What evidence is required for adaptation-related DNSH compliance?",
+    "expected_source_id": "faq_0170",
+    "expected_question": "What documentation must be provided to meet DNSH requirements related to climate change adaptation?"
+  },
+  {
+    "question": "If a company builds a new building for its own use, can that be assessed under the Taxonomy?",
+    "expected_source_id": "faq_0146",
+    "expected_question": "Can the construction of a building for own use count towards the activity \"Construction of new buildings\" in Section 7.1. or “Acquisition and ownership of buildings” in Section 7.7.?"
+  },
+  {
+    "question": "Are telecom networks themselves included as data centre or emissions-reduction digital activities?",
+    "expected_source_id": "faq_0158",
+    "expected_question": "Are electronic communications networks (telecommunication) covered under the activities “Data processing, hosting and related activities” in Section 8.1. or “Data-driven solutions for GHG emissions reductions” in Section 8.2 ?"
+  },
+  {
+    "question": "How should companies present voluntary Taxonomy alignment information?",
+    "expected_source_id": "faq_0200",
+    "expected_question": "How can entities ensure that their voluntary reporting of Taxonomy-alignment of their economic activities does not contradict or misrepresent mandatory disclosures set out in the Disclosures Delegated Act?"
+  }
+]
