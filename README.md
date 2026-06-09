@@ -29,7 +29,7 @@ The app parses the FAQ markdown file, stores FAQ chunks in a local vector databa
 │   ├── rag.py
 │   ├── cli.py
 │   ├── evaluate.py
-│   └── export_faq_index.py
+│   └── export_faq_id_mapping.py
 ├── README.md
 ├── FUTURE_IMPROVEMENTS.md
 ├── requirements.txt
@@ -41,9 +41,9 @@ The app parses the FAQ markdown file, stores FAQ chunks in a local vector databa
 
 The FAQ markdown is parsed into FAQ-level chunks. Each chunk contains:
 
-* the FAQ section,
-* the FAQ question,
-* the FAQ answer.
+- the FAQ section,
+- the FAQ question,
+- the FAQ answer.
 
 I chose FAQ-level chunking because the source data is already structured as question-answer pairs. This keeps each retrieval unit coherent.
 
