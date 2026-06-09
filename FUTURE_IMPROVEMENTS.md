@@ -12,7 +12,7 @@ A hybrid approach combining vector search with BM25 or keyword retrieval could i
 
 A reranking step could improve the order of retrieved FAQ chunks. The current system uses Chroma vector search directly, so the top retrieved result is not always the most relevant FAQ.
 
-A future version could retrieve a larger candidate set first, then rerank the candidates with a cross-encoder or sequence-to-sequence reranker such as MonoT5:
+A future version could retrieve a larger candidate set first, then rerank the candidates with a sequence-to-sequence reranker such as MonoT5:
 
 ```text
 retrieve top 10 chunks,
@@ -42,8 +42,9 @@ Future evaluation could check whether answers are:
 - grounded in the retrieved FAQ,
 - complete enough,
 - concise,
-- free from outside knowledge,
-- correct for out-of-scope questions.
+- free from outside knowledge.
+
+It could also include a dedicated set of out-of-scope questions to measure whether the fallback behaviour works reliably.
 
 ## Stable source IDs
 
